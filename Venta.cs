@@ -8,7 +8,9 @@ namespace ModeloProyectoFinal_VictorPolo
 {
     internal class Venta
     {
-        private int Id;
-        private string Comentarios;
+        public int Id { get; set; }
+        public string Comentarios { get; set; }
+
     }
+    
 }

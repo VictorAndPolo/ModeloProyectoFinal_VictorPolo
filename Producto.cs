@@ -8,11 +8,11 @@ namespace ModeloProyectoFinal_VictorPolo
 {
     internal class Producto
     {
-        private int Id;
-        private string Descripcion;
-        private double Costo;
-        private double PrecioVenta;
-        private int Stock;
-        private int IdUsuario;
+        public int Id { get; set; }
+        public string Descripcion { get; set; }
+        public double Costo { get; set; }
+        public double PrecioVenta { get; set; }
+        public int Stock { get; set; }
+        public int IdUsuario { get; set; }
     }
 }

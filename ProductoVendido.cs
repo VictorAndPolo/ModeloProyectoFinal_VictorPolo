@@ -8,9 +8,9 @@ namespace ModeloProyectoFinal_VictorPolo
 {
     internal class ProductoVendido
     {
-        private int Id;
-        private int IdProducto;
-        private int Stock;
-        private int IdVenta;
+        public int Id { get; set; }
+        public int IdProducto { get; set; }
+        public int Stock { get; set; }
+        public int IdVenta { get; set; }
     }
 }

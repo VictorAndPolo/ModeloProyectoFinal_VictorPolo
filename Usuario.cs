@@ -8,11 +8,11 @@ namespace ModeloProyectoFinal_VictorPolo
 {
     public class Usuario
     {
-        private int Id;
-        private string Nombre;
-        private string Apellido;
-        private string NombreUsuario;
-        private string Contraseña;
-        private string Mail;
+        public int Id { get; set; }
+        public string Nombre { get; set; }
+        public string Apellido { get; set; }
+        public string NombreUsuario { get; set; }
+        public string Contraseña { get; set; }
+        public string Mail { get; set; }
     }
 }
